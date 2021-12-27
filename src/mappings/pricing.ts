@@ -3,7 +3,7 @@ import { Pair, Token, Bundle } from '../types/schema'
 import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
-const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+const WETH_ADDRESS = '0xE94b78D58826eca66a921cEc0E3Bc40BC6707897' //0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
 const USDC_WETH_PAIR = '0x3aa370aacf4cb08c7e1e7aa8e8ff9418d73c7e0f'
 const DAI_WETH_PAIR = ''
 const USDT_WETH_PAIR = ''
@@ -49,21 +49,21 @@ let WHITELIST: string[] = [
   '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH
   '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', // USDC
   '0xdac17f958d2ee523a2206206994597c13d831ec7', // USDT
-  '0xc00e94cb662c3520282e6f5717214004a7f26888', // COMP
-  '0x6b175474e89094c44da98b954eedeac495271d0f', // DAI
-  '0x514910771af9ca656af840dff83e8264ecf986ca', // LINK
-  '0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b', // CRO
-  '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e', // YFI
-  '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599', // WBTC
-  '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', // UNI
-  '0xa0246c9032bc3a600820415ae600c6388619a14d', // FARM
-  '0xb8baa0e4287890a5f79863ab62b7f175cecbd433', // SWRV
-  '0x04fa0d235c4abf4bcf4787af4cf447de572ef828', // UMA
-  '0x408e41876cccdc0f92210600ef50372656052a38', // REN
-  '0x04abeda201850ac0124161f037efd70c74ddc74c', // NEST
-  '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9', // AAVE
-  '0xd533a949740bb3306d119cc777fa900ba034cd52', // CRV
-  '0x4c19596f5aaff459fa38b0f7ed92f11ae6543784', // TRU
+  // '0xc00e94cb662c3520282e6f5717214004a7f26888', // COMP
+  // '0x6b175474e89094c44da98b954eedeac495271d0f', // DAI
+  // '0x514910771af9ca656af840dff83e8264ecf986ca', // LINK
+  // '0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b', // CRO
+  // '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e', // YFI
+  // '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599', // WBTC
+  // '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', // UNI
+  // '0xa0246c9032bc3a600820415ae600c6388619a14d', // FARM
+  // '0xb8baa0e4287890a5f79863ab62b7f175cecbd433', // SWRV
+  // '0x04fa0d235c4abf4bcf4787af4cf447de572ef828', // UMA
+  // '0x408e41876cccdc0f92210600ef50372656052a38', // REN
+  // '0x04abeda201850ac0124161f037efd70c74ddc74c', // NEST
+  // '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9', // AAVE
+  // '0xd533a949740bb3306d119cc777fa900ba034cd52', // CRV
+  // '0x4c19596f5aaff459fa38b0f7ed92f11ae6543784', // TRU
 ]
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
