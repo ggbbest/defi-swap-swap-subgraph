@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: c4ei
     source:
-      address: '0x716fFab1f51b8abC65020d1FEc1eB34cC789957B'
+      address: '0x7142EC3c7Dd94741e5c64731689E05EA973B0e5a'
       abi: Factory
-      startBlock: 10828414
+      startBlock: 563000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3

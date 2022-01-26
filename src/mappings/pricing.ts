@@ -3,8 +3,8 @@ import { Pair, Token, Bundle } from '../types/schema'
 import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
-const WETH_ADDRESS = '0xE94b78D58826eca66a921cEc0E3Bc40BC6707897' //0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
-const USDC_WETH_PAIR = '0x3aa370aacf4cb08c7e1e7aa8e8ff9418d73c7e0f'
+const WETH_ADDRESS = '0x9783061644bd8F41944EF71a6A73FC575F5a2A96' //0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+const USDC_WETH_PAIR = '0x74913e9C882c8e4629068C7109Dd229b4512D552'
 const DAI_WETH_PAIR = ''
 const USDT_WETH_PAIR = ''
 
