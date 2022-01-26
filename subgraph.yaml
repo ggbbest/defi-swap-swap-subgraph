@@ -32,7 +32,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: mainnet
+    network: c4ei
     source:
       abi: Pair
     mapping:

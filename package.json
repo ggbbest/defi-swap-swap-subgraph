@@ -6,10 +6,10 @@
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "create-local": "graph create c4ei-net/swap-subgraph --node http://127.0.0.1:8020",
-    "deploy-local": "graph deploy c4ei-net/swap-subgraph --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "create-local": "graph create ggbbest/swap --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy ggbbest/swap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "deploy-canary": "graph deploy crypto-yang/defi-swap-subgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
-    "deploy": "graph deploy c4ei-net/swap-subgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug"
+    "deploy": "graph deploy ggbbest/swap --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
