@@ -12,5 +12,5 @@ https://thegraph.com/explorer/subgraph/crypto-yang/defi-swap-subgraph
 
 Deployment happens on merge to master branch
 
-https://thegraph.com/explorer/subgraph/crypto-com/swap-subgraph
+https://thegraph.com/explorer/subgraph/c4ei-net/swap-subgraph
 
