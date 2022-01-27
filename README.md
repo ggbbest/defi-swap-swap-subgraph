@@ -27,3 +27,15 @@ graph deploy --product hosted-service ggbbest/swap
 yarn codegen
 
 <!-- graph deploy --product hosted-service ggbbest/swap --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug -->
+
+
+22-01-27
+yarn codegen
+yarn create-local
+yarn deploy-local
+Build completed: QmYzGux6DDrML1cPyH4VB8jzesPEyQJhFJ3f98YRSFJBPn
+Deployed to https://subgraph.c4ei.net/subgraphs/name/c4ei/swap/graphql
+Subgraph endpoints:
+Queries (HTTP):     https://subgraph.c4ei.net/subgraphs/name/c4ei/swap
+Subscriptions (WS): http://127.0.0.1:8001/subgraphs/name/c4ei/swap
+

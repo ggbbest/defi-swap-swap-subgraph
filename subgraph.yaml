@@ -4,7 +4,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: c4ei
+    network: mainnet
     source:
       address: '0x7142EC3c7Dd94741e5c64731689E05EA973B0e5a'
       abi: Factory
@@ -32,7 +32,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: c4ei
+    network: mainnet
     source:
       abi: Pair
     mapping:
